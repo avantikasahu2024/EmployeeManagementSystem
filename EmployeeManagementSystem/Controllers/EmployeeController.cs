@@ -120,11 +120,6 @@ namespace EmployeeManagementSystem.Controllers
 
             return RedirectToAction(nameof(Index));
         }
-        // New Changes on 19 sep 2026
-        public IActionResult Test()
-        {
-            return View();
-        }
 
     }
 }
